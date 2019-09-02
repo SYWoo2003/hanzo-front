@@ -20,19 +20,19 @@ export default {
 
 
             <!-- 여기부터 내용 삽입 -->
-            <div id="style-2" class="box">
+            <div id="scrollstyle" class="box">
                 <h1>1단원</h1>
                 <h4>우리 역사의 형성과 고대 국가의 발전</h4>
                 <hr class="startline">
                 <br><br><br><br>
 
                     <div id="ch1">
-                        <h2>01.우리 민족의 형성과 선사 문화</h2>
-                        <h3>구석기 시대와 신석기 시대</h3>
+                        
                         <br>
                         <img src="./../../assets/ex.png">
+
                         <br>
-                        <div class="el">내용</div>
+                        <div class="el">4단원</div>
                         <div class="el">내용</div>
                         <div class="el">내용</div>
                         <div class="el">내용</div>
