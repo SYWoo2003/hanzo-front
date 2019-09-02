@@ -1,4 +1,4 @@
-# dimicheck_front
+# Softwing Project Hanzo
 
 ## Project setup
 ```
