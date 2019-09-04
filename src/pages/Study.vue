@@ -6,11 +6,6 @@ export default {
 
 <template>
 <div class="studyform">
-  <div class="register">
-    <span class="name">우상윤</span>
-    <span class="welcome"> 님, 환영합니다!</span>
-    <span class="logout" @click="$router.push({name: 'login_page'})">로그아웃</span>
-  </div>
 
 
   <img src="./../assets/logo.png" class="logoimg" @click="$router.push({name: 'main_page'})">
@@ -140,13 +135,7 @@ td{
   font-size:1.1em;
 }
 
-.register{
-  font-family: 'NanumSquare',sans-serif;
-  font-size:1.1em;
-  float:right;
-  position:relative;
-  top:0.6em;
-}
+
 
   .name{
     font-weight: 700;

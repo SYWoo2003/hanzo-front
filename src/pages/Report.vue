@@ -1,19 +1,21 @@
-
-
 <script>
+import Register from './Register.vue'
+
 export default {
+  components: {
+    'register-component': Register,
+  },
 
 }
+
+
 </script>
 
 
 <template>
 <div>
-  <div class="register">
-    <span class="name">우상윤</span>
-    <span class="welcome"> 님, 환영합니다!</span>
-    <span class="logout" @click="$router.push({name: 'login_page'})">로그아웃</span>
-  </div>
+  <register-component></register-component>
+
 
   <img src="./../assets/logo.png" class="logoimg" @click="$router.push({name: 'main_page'})">
 

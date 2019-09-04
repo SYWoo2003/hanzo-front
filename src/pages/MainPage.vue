@@ -1,18 +1,17 @@
 <script>
-export default {
+import Register from '../pages/Register.vue'
 
+export default {
+  components: {
+    'register-component': Register,
+  },
 }
 </script>
 
 <template>
 <div>
-
-  <div class="register">
-    <span class="name">우상윤</span>
-    <span class="welcome"> 님, 환영합니다!</span>
-    <span class="logout" @click="$router.push({name: 'login_page'})">로그아웃</span>
-  </div>
-
+  <register-component></register-component>
+  
   <div class="main">
     <div> <img src="./../assets/logo.png" class="logoimg"></div>
     <div class="loginbox">
@@ -32,31 +31,11 @@ export default {
 
 <style lang="scss" scoped>
 
-.register{
-  font-family: 'NanumSquare',sans-serif;
-  font-size:1.1em;
-  float:right;
-  position:relative;
-  bottom:8em;
 
-  .name{
-    font-weight: 700;
-  }
-
-  .logout{
-    margin-right:1em;
-    margin-left:0.5em;
-    font-weight: 700;
-    color:#b6b6b6;
-  }
-
-  .logout:hover{
-      cursor: pointer;
-    }
-}
 
 .logoimg{
   margin-bottom:2.4em;
+  
 }
 
 .main{
