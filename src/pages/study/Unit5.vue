@@ -14,7 +14,7 @@ export default {
 </script>
 
 <template>
-    <div>
+    <div style="margin-top:1em;">
         <register-component></register-component>
     <div id="wrapper">
         <study-page></study-page>
